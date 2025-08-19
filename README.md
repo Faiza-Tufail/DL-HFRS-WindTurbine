@@ -1,26 +1,28 @@
-# DL-HFRS-WindTurbine
+# Deep Learning-Based Hyperbolic Fuzzy Rough Sets (DL-HFRS) for Wind Turbine Health Monitoring
 
-This repository contains the step-wise Google Colab notebook for the paper:
+This repository contains the implementation of the **DL-HFRS framework**, which integrates entropy-driven hyperbolic fuzzy rough sets with deep learning for wind turbine health monitoring using SCADA data.
 
-**"Deep Learning-Based Hyperbolic Fuzzy Rough Sets for Wind Turbine Health Monitoring"**
+---
 
-## Contents
-- `DL-HFRS-WindTurbine.ipynb`: Main Colab notebook with step-wise code.
-- `requirements.txt`: Dependencies to run the notebook.
+## 📌 Features
+- Entropy-weighted hyperbolic fuzzy rough set model
+- Deep learning integration (MLP/LSTM)
+- Fuzzy labels (0.0, 0.5, 1.0) for uncertainty-aware prediction
+- SHAP explainability for feature interpretation
 
-## How to run
-1. Open the notebook in Google Colab.
-2. Run the cells step by step.
-# DL-HFRS-WindTurbine
+---
 
-This repository contains the step-wise Google Colab notebook for the paper:
+## 📂 Repository Structure
+- `DLHFRS.ipynb` : Main Colab notebook for running experiments  
+- `requirements.txt` : Python dependencies  
+- `README.md` : Project description and usage  
 
-**"Deep Learning-Based Hyperbolic Fuzzy Rough Sets for Wind Turbine Health Monitoring"**
+---
 
-## Contents
-- `DL-HFRS-WindTurbine.ipynb`: Main Colab notebook with step-wise code.
-- `requirements.txt`: Dependencies to run the notebook.
+## ⚙️ Installation
 
-## How to run
-1. Open the notebook in Google Colab.
-2. Run the cells step by step.
+Clone the repository:
+```bash
+git clone https://github.com/Faiza-Tufail/DL-HFRS-WindTurbine.git
+cd DL-HFRS-WindTurbine
+
