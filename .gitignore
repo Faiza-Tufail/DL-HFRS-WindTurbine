@@ -36,23 +36,29 @@ ENV/
 Thumbs.db
 
 # =========================
-# Project-specific ignores
+# Data files
 # =========================
-
-# Data (optional – ignore raw datasets if very large)
-data/
+# Ignore all CSV/Excel/HDF5 by default
 *.csv
 *.xlsx
 *.h5
 
+# But keep important datasets in repo
+!T1.csv
+!T1_fuzzy_labeled_final.csv
+
+# =========================
 # Model checkpoints and weights
+# =========================
 checkpoints/
 *.ckpt
 *.pth
 *.pt
 *.h5
 
+# =========================
 # Results and outputs
+# =========================
 results/
 outputs/
 *.png
