@@ -50,7 +50,7 @@ You can run this project on **Google Colab** (no local installation needed) or o
 ### Option 2: Run Locally  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/DL-HFRS-WindTurbine.git
+   git clone https://github.com/Faiza-Tufail/DL-HFRS-WindTurbine.git
    cd DL-HFRS-WindTurbine
    ```  
 2. Create a virtual environment (optional but recommended):  
@@ -123,3 +123,4 @@ PhD in Mathematics | Researcher in Fuzzy Sets, Rough Sets & Machine Learning
 ## 📜 License  
 
 This project is licensed under the **MIT License** – you are free to use, modify, and distribute with proper attribution.  
+
