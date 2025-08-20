@@ -1,0 +1,66 @@
+# =========================
+# Python-related ignores
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter Notebook ignores
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# =========================
+# Logs and temp files
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Project-specific ignores
+# =========================
+
+# Data (optional – ignore raw datasets if very large)
+data/
+*.csv
+*.xlsx
+*.h5
+
+# Model checkpoints and weights
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.h5
+
+# Results and outputs
+results/
+outputs/
+*.png
+*.jpg
+*.pdf
+
+# =========================
+# IDE and editor settings
+# =========================
+.vscode/
+.idea/
