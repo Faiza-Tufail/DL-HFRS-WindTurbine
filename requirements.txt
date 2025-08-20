@@ -1,7 +1,38 @@
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-tensorflow
-shap
+# ===============================
+# Project Dependencies
+# ===============================
+
+# -------------------------------
+# Core Scientific Libraries
+# -------------------------------
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+scipy==1.13.1
+
+# -------------------------------
+# Deep Learning Frameworks
+# -------------------------------
+tensorflow==2.16.1
+keras==3.3.3
+torch==2.3.1
+torchvision==0.18.1
+
+# -------------------------------
+# Explainability & Visualization
+# -------------------------------
+shap==0.45.1
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+
+# -------------------------------
+# Jupyter Environment
+# -------------------------------
+notebook==7.2.1
+jupyterlab==4.2.2
+
+# -------------------------------
+# Utilities
+# -------------------------------
+tqdm==4.66.4
